@@ -13,7 +13,7 @@ public class ViewNameInterceptor extends HandlerInterceptorAdapter {
 			request.setAttribute("viewName", viewName);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		} 
 		return true;
 	}
 
